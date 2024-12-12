@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 20px;  
+}
+
+
+.container .descript {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .descript a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
