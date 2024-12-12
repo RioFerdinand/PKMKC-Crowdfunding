@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navigation {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.historyku{
+    position: relative;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.history {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 20px 10;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.history h1 {
+    font-size: 2rem;
+    justify-content: space-between;
+    padding-left: 16px;
+}
+
+.dana {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    float: left;
+    padding-top: 10px 0;
+    text-align: left;
+    font-size: 15px ;
+    width: 580px;   
+    align-items: center;
+    margin: 30px;
+    border-color: rgb(195, 244, 244);
+    top: 10;
+}
+
+.dana a{
+    margin-left: 16px;  
+}
+.container {
+    padding: 16px;
+    display: flex;
+    grid-gap: 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center; 
+}
+
+.desc-prev .title .date{
+    font-size: 1.5rem;
+    text-align: left;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 5%;
+
+}
+
+.preview img{
+    width: 2rem;
+    width: 30%;
+    display: flex;
+    float: left;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin-right: 20px ;
+}
+
+.sumbangan {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    float: right;
+    padding-top: 10px 0;
+    text-align: left;
+    font-size: 15px ;
+    width: 580px;   
+    align-items: center;
+    margin: 30px;
+    border-color: rgb(195, 244, 244);
+    top: 10;
+}
+
+.sumbangan a{
+    margin-left: 16px;  
+}
+
+#return-to {
+    cursor: pointer;
+}
