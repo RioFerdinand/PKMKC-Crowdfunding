@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navigation {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-top{
+    position: relative;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+.profile-header{
+    width: 90%;
+    padding: 30px 0;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.account-info{
+    width: 100%;
+    position: relative;
+    padding: 20px 20;
+    margin: 20px 0;
+    justify-content: center;
+    display: block;
+}
+
+.profile-data {
+    display: flex;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.edit-profile {
+    display: block;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.user-data{
+    display: block;
+    padding: 20px 0;
+    margin: 20px;
+}
+.btn btn-primary{
+    justify-content: flex-end;
+    align-items: center;
+    align-content: end;
+    float: right;
+    padding: 2cm;
+    margin-bottom: 80%;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.avatar-profile{
+    margin-left: 20px;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.wrapper-history{
+    margin-left: 20px;
+    display: inline-flex;
+    position: relative;
+    align-items: start;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+
+.danadonasi{
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 200px;
+    height: 100px;
+    padding: 20px 20;
+    
+}
+
+.sumbangandonasi{
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: auto;
+    height: 100px;
+    margin-left: 20px;
+    padding: 20px 20;
+}
+
+.profile-menu{
+    width: 90%;
+    padding-left: 50px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.menu-item{
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 0;
+    margin: 20px 0;
+}
+.menu-item h1{
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.list-group{
+    list-style: disc;
+    padding: 0px 10;
+    margin: 0 20px;
+}
+
+.bi {
+    content: icon;
+    margin: 10px 10;
+    align-items: baseline;
+    align-content: baseline;
+}
+#return-to{
+    cursor: pointer;
+}
